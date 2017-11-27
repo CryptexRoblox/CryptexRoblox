@@ -1,0 +1,32 @@
+{
+  "name": "Cryptex Roblox",
+  "version": "2.1.2",
+  "description": "A Discord Verification Bot. Still in Development.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouieK22/Discord.rbx.git"
+  },
+  "author": "LouieK22",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/LouieK22/Discord.rbx/issues"
+  },
+  "homepage": "https://github.com/LouieK22/Discord.rbx#readme",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "erlpack": "github:hammerandchisel/erlpack#master",
+    "ini": "^1.3.4",
+    "randomstring": "^1.1.5",
+    "request": "^2.81.0",
+    "rethinkdbdash": "^2.3.28",
+    "roblox-js": "^3.0.5",
+    "uws": "^0.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0"
+  }
+}
